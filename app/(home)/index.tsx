@@ -5,7 +5,7 @@ import Container from '@/components/Container'
 export default function index() {
   return (
     <Container>
-      <Text>index</Text>
+      <Text className='text-3xl'>index</Text>
     </Container>
   )
 }

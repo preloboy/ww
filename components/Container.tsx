@@ -1,4 +1,3 @@
-
 import React, { ReactNode } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -8,7 +7,7 @@ interface ContainerProps {
 
 const Container: React.FC<ContainerProps> = ({ children }) => {
     return (
-        <SafeAreaView style={{ paddingHorizontal: 20, paddingVertical: 10 }}>
+        <SafeAreaView className='px-5 py-2' >
             {children}
         </SafeAreaView>
     );
