@@ -5,3 +5,13 @@
 .title {
     @apply text-xl font-semibold text-gray-900;
 }
+.subtitle{
+    @apply text-lg font-bold text-gray-700
+}
+.desc{
+    @apply text-xs font-semibold text-gray-700
+}
+
+.card{
+    @apply w-full h-full bg-slate-500
+}
