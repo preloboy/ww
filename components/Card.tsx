@@ -1,4 +1,4 @@
-import { FC, ReactNode } from "react";
+import { FC } from "react";
 import Box from "./Box";
 import { Image, ImageSourcePropType, StyleSheet } from "react-native";
 import Subtitle from "./Subtitle";
